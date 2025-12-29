@@ -231,15 +231,7 @@ Summary results are cached for 5 minutes to improve performance:
 - ✅ Stack traces hidden in production
 - ✅ Environment variables for secrets
 - ✅ Ready for JWT authentication (add to middleware)
-- ⚠️ TODO: Add rate limiting
-- ⚠️ TODO: Add CORS configuration for frontend
 
-## 📈 Performance Notes
-
-- JSON file operations use `fs/promises` for non-blocking I/O
-- In-memory caching prevents recalculation of summaries
-- Request logging included for monitoring
-- Average response time: < 10ms for reads, < 50ms for writes
 
 ## 🤔 Common Use Cases
 
@@ -266,17 +258,6 @@ curl "http://localhost:3000/transactions/summary?userId=$USER_ID"
 - **Code Comments** - Inline documentation in all source files
 - **TEST_COVERAGE.md** - Comprehensive API test using jest
 
-## 🏆 Code Quality
-
-- Clean, readable variable names
-- Proper error handling throughout
-- Comprehensive comments on complex logic
-- No hardcoded values (uses environment variables)
-- Follows REST conventions
-- DRY (Don't Repeat Yourself) principle
-- Single responsibility principle
-- Production-ready error messages
-
 ## 🚦 Development Mode
 
 For development with auto-reload on file changes:
@@ -294,17 +275,6 @@ Requires `nodemon` (included in devDependencies).
 - **nodemon** (dev) - Auto-reload during development
 - **axios** (dev) - HTTP client for testing
 
-## ✨ Highlights
-
-✅ Zero external database required (uses JSON files)  
-✅ Zero frontend dependencies  
-✅ Runs on minimal hardware  
-✅ Easy to extend and customize  
-✅ Complete error handling  
-✅ Comprehensive test suite  
-✅ Production-ready code  
-✅ Educational value (learn REST, MVC, async/await)  
-
 ## Info
 
 For issues or questions:
@@ -312,19 +282,5 @@ For issues or questions:
 2. Review the test script
 3. Check error messages returned from the API
 4. Review console logs (especially in development mode)
-
-## 🎓 Learning Points
-
-This project covers:
-- Node.js event loop and async programming
-- Express.js middleware and routing
-- REST API design best practices
-- MVC architecture in JavaScript
-- File I/O with fs/promises
-- Error handling patterns
-- Input validation
-- Performance optimization with caching
-- Code organization and modularity
-- Testing and debugging
 
 ---
