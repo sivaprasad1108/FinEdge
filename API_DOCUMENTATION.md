@@ -180,7 +180,7 @@ JWT_SECRET=your_secret_key                   # JWT secret (for authentication)
 ### Automated Test Suite
 ```bash
 # Run the comprehensive test script
-node testApi.js
+node test
 ```
 
 This will test:

@@ -25,7 +25,7 @@ You'll see:
 ### Step 2: Test Everything (in another terminal)
 ```bash
 cd /home/shiva/personal/FinEdge
-node testApi.js
+node test.js
 ```
 
 This runs 18 test cases covering all features.
@@ -107,8 +107,7 @@ GET    /health             Server status
 ### Automated Tests
 ```bash
 npm test
-# Or manually:
-node testApi.js
+
 ```
 
 ### Manual Testing
@@ -134,7 +133,6 @@ FinEdge/
 ├── data/                      JSON data storage (auto-created)
 ├── .env                       Configuration
 ├── package.json               Dependencies
-└── testApi.js                 Test suite
 ```
 
 ## 💾 Data Storage
@@ -182,8 +180,7 @@ JWT_SECRET=your_secret      # JWT secret (for future auth)
 - API examples
 
 ### Testing
-- 18 automated test cases
-- Test script (testApi.js)
+- 22 automated test cases
 - Postman collection
 - cURL examples
 
@@ -200,7 +197,7 @@ npm start
 npm run dev
 
 # Run tests
-node testApi.js
+npm test
 
 # View documentation
 cat README.md
@@ -212,8 +209,7 @@ cat API_DOCUMENTATION.md
 1. **API Questions?** → API_DOCUMENTATION.md
 2. **How to use?** → README.md
 3. **Implementation details?** → IMPLEMENTATION_SUMMARY.md
-4. **Working examples?** → testApi.js
-5. **Postman?** → postman_collection.json
+4. **Postman?** → postman_collection.json
 
 ## ✅ Checklist
 
@@ -221,19 +217,15 @@ cat API_DOCUMENTATION.md
 - [ ] Run `npm install`
 - [ ] Run `npm test`
 - [ ] Run `npm start`
-- [ ] In another terminal, run `node testApi.js`
 - [ ] Read README.md for overview
 - [ ] Read API_DOCUMENTATION.md for endpoints
 - [ ] Try some API calls with cURL or Postman
-- [ ] Review the code in src/
 
 ## 🎉 You're Ready!
 
-Everything is implemented and tested. The API is production-ready.
+Everything is implemented and tested
 
 **Server:** `http://localhost:3000`
 **Health:** `http://localhost:3000/health`
-
-Happy coding! 🚀
 
 ---

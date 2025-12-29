@@ -18,7 +18,7 @@ The API will be available at `http://localhost:3000`
 
 ### 3. Test the API
 ```bash
-node testApi.js
+npm test
 ```
 
 ## 📋 Project Overview
@@ -70,7 +70,6 @@ FinEdge/
 ├── package.json
 ├── API_DOCUMENTATION.md               # Detailed API docs
 ├── postman_collection.json             # Postman collection
-├── testApi.js                          # Automated test suite
 └── README.md
 ```
 
@@ -102,7 +101,7 @@ FinEdge/
 
 ### Automated Tests
 ```bash
-node testApi.js
+npm test
 ```
 
 This script tests all endpoints, error handling, and features.
@@ -263,8 +262,9 @@ curl "http://localhost:3000/transactions/summary?userId=$USER_ID"
 ## 📚 Documentation
 
 - **API_DOCUMENTATION.md** - Comprehensive API reference
+- **START_HERE.md** - Project setup guidelines
 - **Code Comments** - Inline documentation in all source files
-- **testApi.js** - Working examples of all endpoints
+- **TEST_COVERAGE.md** - Comprehensive API test using jest
 
 ## 🏆 Code Quality
 
@@ -309,7 +309,7 @@ Requires `nodemon` (included in devDependencies).
 
 For issues or questions:
 1. Check `API_DOCUMENTATION.md` for endpoint details
-2. Review the test script in `testApi.js`
+2. Review the test script
 3. Check error messages returned from the API
 4. Review console logs (especially in development mode)
 

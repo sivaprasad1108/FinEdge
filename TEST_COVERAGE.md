@@ -1,18 +1,5 @@
 # Jest Test Coverage - FinEdge API
 
-## Summary
-✅ **All 22 Tests Passing**  
-✅ **All Endpoints Covered**  
-✅ **Error Handling Tested**
-
-## Test Execution
-
-```bash
-npm test
-```
-
-**Test Results:** 22 passed, 22 total | Time: ~1.7s
-
 ## Endpoint Coverage
 
 ### 1. Health Check (1 endpoint)
@@ -119,11 +106,3 @@ npm test -- -t "User Endpoints"
   }
 }
 ```
-
-## Notes
-
-- All tests run sequentially (`--runInBand`) to ensure proper server lifecycle management
-- Test timeout set to 15 seconds to accommodate server startup time
-- Server health check endpoint (/health) is polled with 100ms intervals until available
-- Error logging is visible in test output for debugging failed requests
-- Each test is independent within its describe block; data persists across tests in same suite

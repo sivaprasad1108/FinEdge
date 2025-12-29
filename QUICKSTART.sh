@@ -28,7 +28,7 @@ echo ""
 # 4. Test the API
 echo "4️⃣  In a new terminal, run tests:"
 echo "   cd /home/shiva/personal/FinEdge"
-echo "   node testApi.js"
+echo "   npm test"
 echo ""
 
 # 5. Manual testing
