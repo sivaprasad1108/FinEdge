@@ -1,0 +1,145 @@
+[
+  {
+    "id": "bb745a76-f3d1-44f8-b056-f5ad1c736e23",
+    "userId": "ddc3db2b-d883-4ba5-8743-cf229eb2c4c8",
+    "type": "income",
+    "category": "Salary",
+    "amount": 5000,
+    "date": "2025-12-28T13:12:29.501Z",
+    "description": "Monthly income",
+    "createdAt": "2025-12-28T13:12:29.509Z",
+    "updatedAt": "2025-12-28T13:12:29.509Z"
+  },
+  {
+    "id": "4b855f72-93ff-4a42-9446-2a0274e8ee87",
+    "userId": "44499dbd-21a9-44b3-bc52-8c1242c279f6",
+    "type": "income",
+    "category": "Salary",
+    "amount": 5000,
+    "date": "2025-12-28T13:12:29.580Z",
+    "description": "",
+    "createdAt": "2025-12-28T13:12:29.585Z",
+    "updatedAt": "2025-12-28T13:12:29.585Z"
+  },
+  {
+    "id": "e4f51f29-16d0-40bd-92a9-23a673eac457",
+    "userId": "44499dbd-21a9-44b3-bc52-8c1242c279f6",
+    "type": "expense",
+    "category": "Food",
+    "amount": 150,
+    "date": "2025-12-28T13:12:29.587Z",
+    "description": "",
+    "createdAt": "2025-12-28T13:12:29.592Z",
+    "updatedAt": "2025-12-28T13:12:29.592Z"
+  },
+  {
+    "id": "6b814ced-c6ff-41f1-9161-18e995f18e21",
+    "userId": "44499dbd-21a9-44b3-bc52-8c1242c279f6",
+    "type": "expense",
+    "category": "Transport",
+    "amount": 100,
+    "date": "2025-12-28T13:12:29.596Z",
+    "description": "",
+    "createdAt": "2025-12-28T13:12:29.602Z",
+    "updatedAt": "2025-12-28T13:12:29.602Z"
+  },
+  {
+    "id": "b618b533-92d9-47ca-a84b-698ec8668475",
+    "userId": "d6cf3750-24cc-4f67-94a8-fc1c6823ee42",
+    "type": "income",
+    "category": "Salary",
+    "amount": 5000,
+    "date": "2025-12-28T13:12:29.623Z",
+    "description": "",
+    "createdAt": "2025-12-28T13:12:29.629Z",
+    "updatedAt": "2025-12-28T13:12:29.629Z"
+  },
+  {
+    "id": "8fd6e206-06d4-4304-98f3-49478b526ddb",
+    "userId": "d6cf3750-24cc-4f67-94a8-fc1c6823ee42",
+    "type": "expense",
+    "category": "Food",
+    "amount": 150,
+    "date": "2025-12-28T13:12:29.632Z",
+    "description": "",
+    "createdAt": "2025-12-28T13:12:29.637Z",
+    "updatedAt": "2025-12-28T13:12:29.637Z"
+  },
+  {
+    "id": "f9ce8a6e-bab4-4fc0-9218-a615080eb9cd",
+    "userId": "d6cf3750-24cc-4f67-94a8-fc1c6823ee42",
+    "type": "expense",
+    "category": "Transport",
+    "amount": 100,
+    "date": "2025-12-28T13:12:29.640Z",
+    "description": "",
+    "createdAt": "2025-12-28T13:12:29.643Z",
+    "updatedAt": "2025-12-28T13:12:29.643Z"
+  },
+  {
+    "id": "b9a6db21-1715-48b8-a402-205a570f7c55",
+    "userId": "717255e5-b579-4b9d-9816-c4d14eaf475e",
+    "type": "income",
+    "category": "Salary",
+    "amount": 5000,
+    "date": "2025-12-28T13:12:29.661Z",
+    "description": "",
+    "createdAt": "2025-12-28T13:12:29.665Z",
+    "updatedAt": "2025-12-28T13:12:29.665Z"
+  },
+  {
+    "id": "45b893d4-88fb-4a66-a385-bb21dd6f5b77",
+    "userId": "717255e5-b579-4b9d-9816-c4d14eaf475e",
+    "type": "expense",
+    "category": "Food",
+    "amount": 150,
+    "date": "2025-12-28T13:12:29.668Z",
+    "description": "",
+    "createdAt": "2025-12-28T13:12:29.671Z",
+    "updatedAt": "2025-12-28T13:12:29.671Z"
+  },
+  {
+    "id": "7436a9e8-1626-49f2-bc88-aa93e18949a1",
+    "userId": "717255e5-b579-4b9d-9816-c4d14eaf475e",
+    "type": "expense",
+    "category": "Transport",
+    "amount": 100,
+    "date": "2025-12-28T13:12:29.673Z",
+    "description": "",
+    "createdAt": "2025-12-28T13:12:29.681Z",
+    "updatedAt": "2025-12-28T13:12:29.681Z"
+  },
+  {
+    "id": "76433e21-e188-47b0-8e62-70780b4b6dce",
+    "userId": "c698b473-4c83-4935-be2d-c7b2df3c26df",
+    "type": "income",
+    "category": "Salary",
+    "amount": 5000,
+    "date": "2025-12-28T13:12:29.700Z",
+    "description": "",
+    "createdAt": "2025-12-28T13:12:29.704Z",
+    "updatedAt": "2025-12-28T13:12:29.704Z"
+  },
+  {
+    "id": "923ce9f7-0705-4c64-8586-d94360c1d2cd",
+    "userId": "c698b473-4c83-4935-be2d-c7b2df3c26df",
+    "type": "expense",
+    "category": "Food",
+    "amount": 150,
+    "date": "2025-12-28T13:12:29.707Z",
+    "description": "",
+    "createdAt": "2025-12-28T13:12:29.710Z",
+    "updatedAt": "2025-12-28T13:12:29.710Z"
+  },
+  {
+    "id": "7afd25f5-21e8-4d13-b576-9ca8a1cf6ba5",
+    "userId": "c698b473-4c83-4935-be2d-c7b2df3c26df",
+    "type": "expense",
+    "category": "Transport",
+    "amount": 100,
+    "date": "2025-12-28T13:12:29.712Z",
+    "description": "",
+    "createdAt": "2025-12-28T13:12:29.716Z",
+    "updatedAt": "2025-12-28T13:12:29.716Z"
+  }
+]
